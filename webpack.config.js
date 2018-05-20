@@ -9,6 +9,11 @@ module.exports = {
   },
   module: {
     rules: [
+        {
+            test: /\.tsx?$/,
+            use: 'ts-loader',
+            exclude: /node_modules/
+          },
       {
         test: /\.(js|jsx)$/,
         use: "babel-loader",
@@ -26,7 +31,7 @@ module.exports = {
     })
   ],
   resolve: {
-    extensions: [".js", ".jsx"]
+    extensions: [".js", ".jsx",'.tsx', '.ts']
   },
   devServer: {
     contentBase: path.join(__dirname, "docs"),

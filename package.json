@@ -2,8 +2,8 @@
   "name": "@wassimbenzarti/something-awesome",
   "version": "0.2.11",
   "description": "A test to deploy react component.",
-  "main": "lib/main.js",
-  "types": "lib/typings.d.ts",
+  "main": "lib/lib/main.js",
+  "types": "lib/lib/main.d.ts",
   "scripts": {
     "dev": "concurrently \"npm run tsc:watch\" \"npm run docs\"",
     "dev2": "concurrently \"npm run lib:watch\" \"npm run docs\"",
