@@ -8,9 +8,9 @@ class MySuperCoolComponent extends Component {
   render() {
     const { color, children } = this.props;
     return (
-      <button onClick={this.handleClick} style={{ color }}>
+      <h1 style={{ color }}>
         {children}
-      </button>
+      </h1>
     );
   }
 }
