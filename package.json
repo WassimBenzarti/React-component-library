@@ -1,6 +1,6 @@
 {
   "name": "@wassimbenzarti/something-awesome",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A test to deploy react component.",
   "main": "lib/index.js",
   "scripts": {
